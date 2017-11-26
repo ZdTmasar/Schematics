@@ -1,0 +1,55 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'Carte Alimentation_GMI.pdsprj'.
+CADCAM generated at 14:33:37 on mercredi 8 mars 2017.
+
+File List
+---------
+Top Copper              : Carte Alimentation_GMI - CADCAM Top Copper.TXT
+Bottom Copper           : Carte Alimentation_GMI - CADCAM Bottom Copper.TXT
+Drill                   : Carte Alimentation_GMI - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer
+
+D10	CIRCLE  D=1.02mm                                                          DRAW
+D11	CIRCLE  D=2mm                                                             DRAW
+D12	CIRCLE  D=0.51mm                                                          DRAW
+D13	CIRCLE  D=0.25mm                                                          DRAW
+D14	CIRCLE  D=4.8mm                                                           FLASH
+D15	CIRCLE  D=0.0635mm                                                        DRAW
+D16	SQUARE  S=1.27mm                                                          FLASH
+D17	CIRCLE  D=1.27mm                                                          FLASH
+D18	SQUARE  S=2.03mm                                                          FLASH
+D19	CIRCLE  D=1.78mm                                                          FLASH
+D70	CIRCLE  D=2.54mm                                                          FLASH
+D71	CIRCLE  D=2.03mm                                                          FLASH
+D20	CIRCLE  D=1.4mm                                                           FLASH
+D21	RECT    W=3.2mm               H=2mm                                       FLASH
+D22	CIRCLE  D=2mm                                                             FLASH
+D23	RECT    W=8.89mm              H=11.43mm                                   FLASH
+D24	RECT    W=3.81mm              H=2.03mm                                    FLASH
+D25	CIRCLE  D=0.2mm                                                           DRAW
+D26	RECT    W=1.02mm              H=2.54mm                                    FLASH
+D27	RECT    W=2.54mm              H=2.03mm                                    FLASH
+D28	RECT    W=2.54mm              H=1.02mm                                    FLASH
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	4mm (0-15) Plated
+T02	0.76mm (0-15) Plated
+T03	1.02mm (0-15) Plated
+T04	1.52mm (0-15) Plated
+T05	1.2mm (0-15) Plated
+T06	0.9mm (0-15) Plated
+
+
+[END OF FILE]
